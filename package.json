@@ -1,0 +1,17 @@
+{
+  "name": "material-design-kit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:osolomennikova/material-design-kit.git",
+  "author": "osol <sprivetom@inbox.ru>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
+
+
