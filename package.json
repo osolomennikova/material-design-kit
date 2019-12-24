@@ -19,6 +19,7 @@
     "react": "~0.13.x || ~0.14.x || ^15.0.0 || ^16.0.0",
     "react-day-picker": "^7.4.0",
     "react-daypicker": "^3.0.10",
-    "react-dom": "^16.8.0"
+    "react-dom": "^16.8.0",
+    "react-vis": "^1.11.7"
   }
 }

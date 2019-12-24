@@ -3,6 +3,7 @@ import SideMenu from "./components/SideMenu";
 import Summary from "./components/Summary";
 import Grid from "@material-ui/core/Grid";
 import DatePicker from './components/DatePicker';
+import SalesScale from './components/SalesScale';
 
 
 function App() {
@@ -16,6 +17,9 @@ function App() {
           </Grid>
           <Grid item xs="4">
             <DatePicker />
+          </Grid>
+          <Grid item xs="8">
+            <SalesScale />
           </Grid>
         </Grid>
       </main>
