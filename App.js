@@ -12,14 +12,12 @@ function App() {
       <SideMenu />
       <main style={{ marginLeft: 240 }}>
         <Grid container justify="space-between" spacing={3}>
-          <Grid item xs="8">
+          <Grid item xs="8" >
             <Summary />
+            <SalesScale />
           </Grid>
           <Grid item xs="4">
             <DatePicker />
-          </Grid>
-          <Grid item xs="8">
-            <SalesScale />
           </Grid>
         </Grid>
       </main>

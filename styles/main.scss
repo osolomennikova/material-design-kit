@@ -1,5 +1,5 @@
 .react-daypicker-root {
-  border: 1px grey solid;
+  border: 1px  #9b9b9b solid;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-size: 1rem;
 }
@@ -19,7 +19,7 @@ table {
 }
 
 thead {
-  color: grey;
+  color: #9b9b9b;
   font-size: 0.75rem;
   th {
     font-weight: 400;
@@ -46,7 +46,6 @@ thead {
 {
   opacity: 1;
 }
-
 
 .react-daypicker-root .header {
   position: relative;
@@ -84,4 +83,13 @@ thead {
       right: 10px;
       font-weight: bold;
     }
+  }
+
+  .scaleContainer {
+    margin-top: 40px;
+    border: 1px  #9b9b9b solid;
+  }
+
+  .scaleTitle {
+    padding: 40px 0 0 30px;
   }
