@@ -20,7 +20,7 @@ const data = [
 function SalesScale() {
   return (
     <div className="scaleContainer">
-      <Typography variant="h6" className='scaleTitle'>Sales</Typography>
+      <Typography variant="h6" className='titleScale'>Sales</Typography>
       <XYPlot
         width={650}
         height={400}
