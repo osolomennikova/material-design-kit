@@ -5,14 +5,16 @@ import Typography from "@material-ui/core/Typography";
 import "../styles/main.scss";
 
 const data = [
-  { x: "Mon", y: 400 },
-  { x: "Tue", y: 300 },
-  { x: "Wen", y: 500 },
-  { x: "Thu", y: 350 },
-  { x: "Fri", y: 500 },
-  { x: "Sat", y: 300 },
-  { x: "Sun", y: 200 }
-];
+  { x: 1800, y: 'NY' },
+  { x: 1000, y: 'IT'},
+  { x: 2200, y: 'CA' },
+]
+
+const data2 =[
+    { x: 2700, y: 'NY' },
+    { x: 1900, y: 'IT'},
+    { x: 4200, y: 'CA' },
+]
 
 function HorizontalBar() {
   return (
@@ -20,13 +22,19 @@ function HorizontalBar() {
       <Typography variant="h6" className="titleScale">
         Top States
       </Typography>
-      <XYPlot width={650} height={400} xType="ordinal">
-        <VerticalGridLines />
-        <XAxis hideLine />
+      <XYPlot width={650} height={400} yType="ordinal">
+        <VerticalGridLines tickValues={[0, 1000, 2000, 3000, 4000]}/>
+        <XAxis hideLine tickValues={[0, 1000, 2000, 3000, 4000]}/>
         <YAxis />  
         <HorizontalBarSeries
           color="#2196f3"
           data={data}
+          opacity={1}
+          strokeStyle="solid"
+        />
+        <HorizontalBarSeries
+          color="#1976d2"
+          data={data2}
           opacity={1}
           strokeStyle="solid"
         />
