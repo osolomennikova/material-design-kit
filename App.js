@@ -6,6 +6,7 @@ import DatePicker from './components/DatePicker';
 import SalesScale from './components/SalesScale';
 import VerticalBar from "./components/VerticalBar";
 import HorizontalBar from "./components/HorizontalBar";
+import ClientsList from "./components/ClientsList";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <VerticalBar />
           </Grid>
           <Grid item xs="4" >
+            <ClientsList />
           </Grid>
           <Grid item xs="8">
             <HorizontalBar />
