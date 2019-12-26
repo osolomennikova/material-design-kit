@@ -1,5 +1,5 @@
 import React from "react";
-import { XYPlot, XAxis, YAxis, VerticalBarSeries } from "react-vis";
+import { XYPlot, XAxis, VerticalBarSeries } from "react-vis";
 import "../node_modules/react-vis/dist/style.css";
 import Typography from "@material-ui/core/Typography";
 import "../styles/main.scss";
