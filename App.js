@@ -18,17 +18,13 @@ function App() {
           <Grid item xs="8" >
             <Summary />
             <SalesScale />
+            <HorizontalBar />
           </Grid>
           <Grid item xs="4">
             <DatePicker />
             <VerticalBar />
-          </Grid>
-          <Grid item xs="4" >
             <ClientsList />
-          </Grid>
-          <Grid item xs="8">
-            <HorizontalBar />
-          </Grid>
+          </Grid>  
         </Grid>
       </main>
     </div>
