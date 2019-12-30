@@ -15,6 +15,7 @@ import ViewQuiltIcon from "@material-ui/icons/ViewQuilt";
 import AssignmentIcon from "@material-ui/icons/Assignment";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import SettingsIcon from "@material-ui/icons/Settings";
+import "../styles/main.scss";
 
 const drawerWidth = 240;
 const useStyles = makeStyles(theme => ({
@@ -70,7 +71,7 @@ function SideMenu() {
         </div>
         <Divider />
         <List>
-          <Link to="/dashboard">
+          <Link className='router-link' to="/dashboard">
             <ListItem button key={"Dashboard"}>
               <ListItemIcon>
                 <ViewQuiltIcon />
