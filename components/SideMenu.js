@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 import Drawer from "@material-ui/core/Drawer";
 import Divider from "@material-ui/core/Divider";
@@ -69,12 +70,14 @@ function SideMenu() {
         </div>
         <Divider />
         <List>
-          <ListItem button key={"Dashboard"}>
-            <ListItemIcon>
-              <ViewQuiltIcon />
-            </ListItemIcon>
-            <ListItemText primary={"Dashboard"} />
-          </ListItem>
+          <Link to="/dashboard">
+            <ListItem button key={"Dashboard"}>
+              <ListItemIcon>
+                <ViewQuiltIcon />
+              </ListItemIcon>
+              <ListItemText primary={"Dashboard"} />
+            </ListItem>
+          </Link>
           <ListItem button key={"Messages"}>
             <ListItemIcon>
               <ChatIcon />

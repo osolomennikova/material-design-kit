@@ -16,10 +16,12 @@
   "dependencies": {
     "@material-ui/core": "^4.0.0",
     "@material-ui/icons": "^4.5.1",
-    "react": "~0.13.x || ~0.14.x || ^15.0.0 || ^16.0.0",
+    "create-react-app": "^3.3.0",
+    "react": ">=15",
     "react-day-picker": "^7.4.0",
     "react-daypicker": "^3.0.10",
     "react-dom": "^16.8.0",
+    "react-router-dom": "^5.1.2",
     "react-vis": "^1.11.7"
   }
 }
