@@ -2,7 +2,7 @@ import React from "react";
 import { XYPlot, XAxis, YAxis, HorizontalBarSeries,  VerticalGridLines, } from "react-vis";
 import "../node_modules/react-vis/dist/style.css";
 import Typography from "@material-ui/core/Typography";
-import "../styles/main.scss";
+
 
 const data = [
   { x: 1800, y: 'NY' },

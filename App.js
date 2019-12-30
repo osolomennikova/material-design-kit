@@ -8,6 +8,7 @@ import SalesScale from "./components/SalesScale";
 import VerticalBar from "./components/VerticalBar";
 import HorizontalBar from "./components/HorizontalBar";
 import ClientsList from "./components/ClientsList";
+import './styles/main.scss';
 
 function App() {
   return (

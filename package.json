@@ -22,6 +22,7 @@
     "react-daypicker": "^3.0.10",
     "react-dom": "^16.8.0",
     "react-router-dom": "^5.1.2",
-    "react-vis": "^1.11.7"
+    "react-vis": "^1.11.7",
+    "styles": "^0.2.1"
   }
 }

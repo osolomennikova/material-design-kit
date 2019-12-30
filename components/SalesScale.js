@@ -8,7 +8,7 @@ import {
 } from "react-vis";
 import "../node_modules/react-vis/dist/style.css";
 import Typography from "@material-ui/core/Typography";
-import "../styles/main.scss";
+
 
 const data = [
   { x: 1, y: 200 },

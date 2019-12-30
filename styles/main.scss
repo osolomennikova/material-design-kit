@@ -27,20 +27,21 @@ thead {
   }
 }
 
+.react-daypicker-root .day {
+  &:hover {
+    height: 40px;
+    border-radius: 50%;
+  }
+}
+
 .react-daypicker-root .day.today,
 .react-daypicker-root .day.active 
 {
   color: white;
-  background-color: #2196f3;
+  background-color: #2196f3 !important;
   height: 40px;
   border-radius: 50%;
   opacity: .5;
-  &:hover {
-    color: white;
-    background-color: #2196f3;
-    height: 40px;
-    border-radius: 50%;
-  }
 }
 
 .react-daypicker-root .day.active
